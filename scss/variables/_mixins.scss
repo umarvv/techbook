@@ -1,0 +1,102 @@
+// Neutral colors
+$neutral-900: #062630;
+$neutral-700: #385159;
+$neutral-200: #e6e1df;
+$neutral-100: #faf5f3;
+$neutral-0: #ffffff;
+
+// Light Salmon
+$light-salmon-500: #fea36f;
+$light-salmon-100: #ffe2d1;
+$light-salmon-50: #fff5ef;
+
+// Gradients
+$text-gradient: linear-gradient(107deg, #fea36f -11.47%, #062630 61.84%);
+$main-gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+
+// Font families
+$font-martian: "Martian Mono", monospace;
+$font-inter: "Inter", sans-serif;
+
+// Text Preset 1
+$text-1-font: $font-martian;
+$text-1-weight: 700;
+$text-1-size: 62px;
+$text-1-line-height: 120%;
+$text-1-letter-spacing: -2px;
+
+// Text Preset 2
+$text-2-font: $font-martian;
+$text-2-weight: 600;
+$text-2-size: 50px;
+$text-2-line-height: 130%;
+$text-2-letter-spacing: -2px;
+
+// Text Preset 3
+$text-3-font: $font-martian;
+$text-3-weight: 600;
+$text-3-size: 34px;
+$text-3-line-height: 130%;
+$text-3-letter-spacing: -1px;
+
+// Text Preset 4
+$text-4-font: $font-martian;
+$text-4-weight: 600;
+$text-4-size: 24px;
+$text-4-line-height: 110%;
+$text-4-letter-spacing: -1px;
+
+// Text Preset 5
+$text-5-font: $font-inter;
+$text-5-weight: 400;
+$text-5-size: 20px;
+$text-5-line-height: 140%;
+$text-5-letter-spacing: -0.5px;
+
+// Text Preset 5 (SemiBold)
+$text-5b-font: $font-inter;
+$text-5b-weight: 600;
+$text-5b-size: 20px;
+$text-5b-line-height: 140%;
+$text-5b-letter-spacing: -0.5px;
+
+// Text Preset 6
+$text-6-font: $font-martian;
+$text-6-weight: 600;
+$text-6-size: 18px;
+$text-6-line-height: 130%;
+$text-6-letter-spacing: -1px;
+
+// Text Preset 7
+$text-7-font: $font-martian;
+$text-7-weight: 400;
+$text-7-size: 14px;
+$text-7-line-height: 120%;
+$text-7-letter-spacing: -1px;
+
+@mixin gradient-text($gradient) {
+  background: $gradient;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+// Mixins and Variables
+$text-gradient: linear-gradient(107deg, #fea36f -11.47%, #062630 61.84%);
+$main-gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+
+// Font families
+$font-martian: "Martian Mono", monospace;
+$font-inter: "Inter", sans-serif;
+
+// Text Presets
+$text-5-font: $font-inter;
+$text-5-weight: 400;
+$text-5-size: 20px;
+$text-5-line-height: 140%;
+$text-5-letter-spacing: -0.5px;
+
+// Mixin for gradient text
+@mixin gradient-text($gradient) {
+  background: $gradient;
+  -webkit-background-clip: text;
+  color: transparent;
+}
