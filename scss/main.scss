@@ -428,3 +428,143 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+//sec-3 styles
+.section-3 {
+}
+.sec-3-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+.min-container {
+}
+.stars_desc {
+  margin-bottom: 32px;
+}
+.stars-sec-3 {
+}
+.sec-3-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.sec-3-title h4 {
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 1.1px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.sec-3-title p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #385159;
+}
+
+.footer {
+  background-image: url("../images/bg-pattern.png");
+  background-color: #062630;
+  color: #fff;
+  border-radius: 20px 20px 0 0;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 753px;
+  margin-bottom: 64px;
+}
+
+.footer-wrapper h5 {
+  padding-top: 80px;
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-btn {
+  background-color: transparent;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 380px;
+  padding: 20px 25px;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  font-family: "Martian Mono";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.stars-footer {
+  margin-top: 22px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.start-footer p {
+  font-family: "Martian Mono";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 42px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 29px;
+}
+.linel {
+  width: 100%;
+  max-width: 1170px;
+  height: 0.2px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 270px;
+  opacity: 80%;
+}
+.main-btn {
+}
+.hero__btn {
+}
+.hero__otziv {
+}
+.stars_desc {
+}
+.stars_info {
+}
