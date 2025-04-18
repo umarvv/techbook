@@ -9,12 +9,12 @@
   <body>
     <header class="header">
       <div class="glow-bg"></div>
-      <nav class="header__navbar max-container">
+      <nav class="header__navbar max-container min-container">
         <img src="./images/Logo.svg" alt="Main site logo" />
       </nav>
 
       <div class="header__hero min-container">
-        <div class="hero-left">
+        <div class="hero-left min-container">
           <h1 class="subtitle">Join the ultimate tech book club</h1>
           <p class="hero__info">
             Turn your reading time into learning time with fellow tech
@@ -22,9 +22,11 @@
             and level up your skills one chapter at a time.
           </p>
           <a href="#feature" class="main-btn"
-            ><button class="hero__btn">REVIEW MEMBERSHIP OPTIONS</button></a
+            ><button class="hero__btn">
+              <p>REVIEW MEMBERSHIP OPTIONS</p>
+            </button></a
           >
-          <div class="hero__otziv">
+          <div class="hero__otziv min-container">
             <img
               src="./images/Testimonials Container.svg"
               alt="Testimonials Container"
@@ -35,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="hero_right">
+        <div class="hero_right min-container">
           <img src="./images/Hero Image Container.png" alt="" />
         </div>
       </div>
@@ -43,12 +45,11 @@
 
     <main class="main">
       <section class="section-1 header__section min-container">
-        <div class="section-1__img">
-          <img src="./images/Image Wrapper.png" alt="" />
-        </div>
         <div class="section-1__right">
-          <h3 class="section-1__title">Read together, grow together</h3>
-          <div class="main-info-dis">
+          <h3 class="section-1__title min-container">
+            Read together, grow together
+          </h3>
+          <div class="main-info-dis min-container">
             <div class="check-item">
               <img src="./images/check-1.svg" alt="" width="24" height="24" />
               <p>Monthly curated tech reads selected by industry experts</p>
@@ -66,6 +67,9 @@
               <p>Author Q&A sessions with tech thought leaders</p>
             </div>
           </div>
+          <div class="section-1__img min-container">
+            <img src="./images/Image Wrapper.png" alt="" />
+          </div>
         </div>
       </section>
 
@@ -73,10 +77,8 @@
         <div class="position_img">
           <img src="./images/Technologies Logos.svg" alt="Technologies Logo" />
         </div>
-        <div class="section-1__img">
-          <img src="./images/Image Container.png" alt="" />
-        </div>
-        <div class="section-1__right">
+
+        <div class="section-1__right min-container">
           <h3 class="section-1__title">
             Not your average book <span class="section-2__title-bg">club</span>
           </h3>
@@ -87,57 +89,65 @@
               technical depth with practical applications.
             </p>
           </div>
+          <div class="section-1__img">
+            <img src="./images/Image Container.png" alt="" />
+          </div>
         </div>
       </section>
     </main>
 
     <div class="features">
       <div class="features__top min-container">
-        <h3 class="feature-top__title">Your tech reading journey</h3>
+        <div class="ds-none">
+          <h3 class="feature-top__title">Your tech reading journey</h3>
 
-        <div class="features__sections">
-          <div class="features-section-1 features_section">
-            <div class="features_section__wrapper">
-              <img src="./images/Step Number Container.svg" alt="step number" />
-              <img src="./images/Arrow.svg" alt="Arrow" />
+          <div class="features__sections">
+            <div class="features-section-1 features_section">
+              <div class="features_section__wrapper">
+                <img
+                  src="./images/Step Number Container.svg"
+                  alt="step number"
+                />
+                <img src="./images/Arrow.svg" alt="Arrow" />
+              </div>
+              <div>
+                <p>Choose your membership tier</p>
+              </div>
             </div>
-            <div>
-              <p>Choose your membership tier</p>
+            <div class="features-section-2 features_section">
+              <div class="features_section__wrapper">
+                <img
+                  src="./images/Step Number Container-1.svg"
+                  alt="step number"
+                />
+                <img src="./images/Arrow.svg" alt="Arrow" />
+              </div>
+              <div>
+                <p>Choose your membership tier</p>
+              </div>
             </div>
-          </div>
-          <div class="features-section-2 features_section">
-            <div class="features_section__wrapper">
-              <img
-                src="./images/Step Number Container-1.svg"
-                alt="step number"
-              />
-              <img src="./images/Arrow.svg" alt="Arrow" />
+            <div class="features-section-3 features_section">
+              <div class="features_section__wrapper">
+                <img
+                  src="./images/Step Number Container-2.svg"
+                  alt="step number"
+                />
+                <img src="./images/Arrow.svg" alt="Arrow" />
+              </div>
+              <div>
+                <p>Choose your membership tier</p>
+              </div>
             </div>
-            <div>
-              <p>Choose your membership tier</p>
-            </div>
-          </div>
-          <div class="features-section-3 features_section">
-            <div class="features_section__wrapper">
-              <img
-                src="./images/Step Number Container-2.svg"
-                alt="step number"
-              />
-              <img src="./images/Arrow.svg" alt="Arrow" />
-            </div>
-            <div>
-              <p>Choose your membership tier</p>
-            </div>
-          </div>
-          <div class="features-section-4 features_section">
-            <div class="features_section__wrapper">
-              <img
-                src="./images/Step Number Container-3.svg"
-                alt="step number"
-              />
-            </div>
-            <div>
-              <p>Choose your membership tier</p>
+            <div class="features-section-4 features_section">
+              <div class="features_section__wrapper">
+                <img
+                  src="./images/Step Number Container-3.svg"
+                  alt="step number"
+                />
+              </div>
+              <div>
+                <p>Choose your membership tier</p>
+              </div>
             </div>
           </div>
           <div class="glow-bg2"></div>
